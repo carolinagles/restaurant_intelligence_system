@@ -1,0 +1,30 @@
+.DS_Store
+**/.DS_Store
+
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+
+mlruns/
+
+.streamlit/
+
+# Large datasets - local only
+data/reviews.pkl
+data/users.pkl
+data/data_processed.pkl
+data/data_processed.parquet
+data/modeling_corpus.parquet
+
+# Local MLflow tracking
+artifacts/mlflow.db
+artifacts/mlflow_artifacts/
+
+# Local logs
+artifacts/*.log
